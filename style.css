@@ -1,0 +1,95 @@
+body {
+    background-color: #708090; /* SlateGray */
+    margin: 0;
+    padding: 20px; 
+}
+
+.intro {
+    color: rgb(209, 212, 209);
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    margin: 20px 0 30px 0;
+}
+
+.definição {
+    border-style: solid;
+    background-color: burlywood;
+    padding: 15px;
+    font-family: Arial, Helvetica, sans-serif; /* Opcional: deixa o texto do objetivo combinando com o título */
+}
+
+/* Ajuste da sua foto do currículo */
+.imagem1 img {
+    width: 180px;          
+    height: 180px;         
+    object-fit: cover;     
+    border-radius: 50%;    
+    margin-top: 15px;      
+    border: 3px solid black; /* Mudado para preta aqui */
+}
+
+.biomas1 {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.imagem2 {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+.imagem3 {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+
+/* Formatação da lista de projetos para ficar alinhada e formal */
+.lista-projetos {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #333; /* Um tom de cinza escuro para melhor leitura sobre o fundo burlywood */
+    line-height: 1.8; /* Dá um espaçamento confortável entre uma linha e outra */
+    margin-bottom: 25px;
+    padding-left: 20px;
+}
+
+.lista-projetos li {
+    font-weight: bold;
+    font-style: italic;
+}
+
+/* Container do link */
+.container-link {
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 20px;
+    border-top: 1px solid rgba(0, 0, 0, 0.1); /* Uma linha sutil divisória */
+    padding-top: 15px;
+}
+
+.container-link p {
+    font-size: 14px;
+    color: #555;
+    margin-bottom: 8px;
+}
+
+/* Estilo do Link em formato de botão elegante */
+.link-reportagem {
+    display: inline-block;
+    color: #708090; /* Cor SlateGray para conversar com o fundo da página */
+    background-color: #ffffff; /* Fundo branco para destacar com elegância */
+    text-decoration: none; /* Remove o sublinhado feio */
+    padding: 8px 16px;
+    font-size: 14px;
+    font-weight: bold;
+    border-radius: 4px; /* Bordas levemente arredondadas */
+    border: 1px solid #708090;
+    transition: all 0.3s ease; /* Efeito suave ao passar o mouse */
+}
+
+/* Efeito ao passar o mouse por cima do link */
+.link-reportagem:hover {
+    background-color: #708090;
+    color: #ffffff;
+    cursor: pointer;
+}
